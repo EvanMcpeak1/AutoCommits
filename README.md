@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GitHub Automated Daily Push
 
 A C# console application that automatically makes a small commit and pushes it to GitHub every day, without requiring YAML files or GitHub Actions.
@@ -98,3 +99,7 @@ A C# console application that automatically makes a small commit and pushes it t
 4. Pushes to the specified branch on GitHub
 
 
+=======
+# AutoCommits
+Uploads autocommits to show activity
+>>>>>>> a2b4ea31ce3aa06530b49fc8d2563052a1182f2f
