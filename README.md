@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 # GitHub Automated Daily Push
 
 A C# console application that automatically makes a small commit and pushes it to GitHub every day
+
 ## Features
 
 - Automatically updates a file with a timestamp
@@ -17,15 +17,13 @@ A C# console application that automatically makes a small commit and pushes it t
 
 ## Setup
 
-1. **
+1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-name>
+   git clone https://github.com/EvanMcpeak1/AutoCommits
+   cd AutoCommits
    ```
 
-2. **Place this project** inside your repository directory, or update the `RepositoryPath` in `appsettings.json`
-
-3. **Configure authentication**:
+2. **Configure authentication**:
    - **Option 1 - GitHub CLI**: Install GitHub CLI and authenticate
      ```bash
      gh auth login
@@ -35,7 +33,7 @@ A C# console application that automatically makes a small commit and pushes it t
      git remote set-url origin https://token@github.com/username/repo.git
      ```
 
-4. **Configure settings** in `appsettings.json`:
+3. **Configure settings** in `appsettings.json`:
    ```json
    {
      "GitSettings": {
@@ -48,12 +46,12 @@ A C# console application that automatically makes a small commit and pushes it t
    }
    ```
 
-5. **Build the project**:
+4. **Build the project**:
    ```bash
    dotnet build
    ```
 
-6. **Test run**:
+5. **Test run**:
    ```bash
    dotnet run
    ```
@@ -76,9 +74,3 @@ A C# console application that automatically makes a small commit and pushes it t
 2. Stages the file using `git add`
 3. Commits the changes with your configured message
 4. Pushes to the specified branch on GitHub
-
-
-=======
-# AutoCommits
-Uploads autocommits to show activity
->>>>>>> a2b4ea31ce3aa06530b49fc8d2563052a1182f2f
